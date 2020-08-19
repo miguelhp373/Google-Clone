@@ -18,13 +18,55 @@
     margin:40px 0px 0px;
  }
 
- #search-bar{
+ /*#search-bar{
      width: 582px;
      height: 44px;
      border-radius: 30px;
      background-color: white;
      border:1px solid gray;
+     padding-left: 50px;
+ }*/
+
+ #search{
+     border: 1px solid #dfe1e5;
+     width:582px;
+     height:44px;
+     border-radius:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left:390px ;
  }
+
+ #input-search{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    width: 447px;
+    height: 34px;
+    font-size: 16px;
+    margin-top: 2px;
+    padding-left: 30px;
+}
+
+#search-icon{
+    width: 23px;
+    height: 23px;
+}
+
+#lupa{
+    color: #c6c9cd;
+    height: 20px;
+    width: 20px;
+    margin-top:13px;
+    margin-left:20px;
+}
 
  #mic-area{
      margin-left:930px;
@@ -37,4 +79,35 @@
 #mic{
     width: 24px;
     height:24px;
+}
+
+#center{
+    display: flex;
+    flex-direction: row;
+    width: 571px;
+    height: 58px;
+    margin-left:535px ;
+    font:13px arial, sans-serif;
+    color: #222222;
+}
+
+#search-button{
+    background-color: #f2f2f2;
+    color: #5f6368;
+    width:140.4px;
+    height:36px;
+    margin:11px 4px;
+    padding:0px 16px;
+    border: none;
+
+}
+
+#lucky-button{
+    background-color: #f2f2f2;
+    color: #5f6368;
+    width:135.16px;
+    height:36px;
+    margin:11px 4px;
+    padding:0px 16px;
+    border:none;
 }
