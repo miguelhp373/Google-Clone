@@ -1,0 +1,13 @@
+body{
+    background-color: #ffffff;
+}
+
+.content{
+    text-align:center;
+}
+
+ #profile-icon{
+    height:32px;
+    width:32px;
+    border-radius:30px;
+ }
