@@ -1,13 +1,40 @@
-body{
-    background-color: #ffffff;
-}
 
-.content{
-    text-align:center;
-}
 
  #profile-icon{
     height:32px;
     width:32px;
     border-radius:30px;
  }
+
+ #serch-items{
+     margin-top:156px;
+ }
+
+
+ #lga{
+    text-align: center;
+    width: 1366px;
+    height: 233px;
+    margin:40px 0px 0px;
+ }
+
+ #search-bar{
+     width: 582px;
+     height: 44px;
+     border-radius: 30px;
+     background-color: white;
+     border:1px solid gray;
+ }
+
+ #mic-area{
+     margin-left:930px;
+     margin-top:-110px;
+     width:40px;
+     height:42px;
+    
+ }
+
+#mic{
+    width: 24px;
+    height:24px;
+}
