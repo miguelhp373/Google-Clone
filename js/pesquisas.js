@@ -1,25 +1,20 @@
-var search = String(document.getElementById("input-search").value) 
-// transforma a variavel pesquisa em string e pega seu valor
+function pesquisar(){
+  var inputsearch = document.getElementById("input-search");
+  var resp = String(inputsearch.value)
 
-
-console.log({search})
-
-function pesquisar(){ //Função de Pesquisa
-     if(search === "teste"){
-        window.location.href = "https://www.google.com.br/"   
-    }else if(search.length == 0){
-      window.location.href = "t-rex/pages/index.html"
-    }
+  if(resp =="dino" || resp == "t-rex"){
+    window.location.href = "t-rex/pages/index.html"
+  } else if(resp == ""){
+    return(null)
+  }else{
+  var url = 'https://www.google.com/search?q=' + resp;
+    window.open(url, 'google');
   }
-
-  document.addEventListener('keypress', function(e){ //Função Para Quando Apertar o Enter Aciona o botao de Pesquisar
-    if(e.which == 13){
-      pesquisar();
-    }
-  }, false);
-  
-  
+}
 
 
-
-
+document.addEventListener('keypress', function(e){
+  if(e.which == 13){
+    pesquisar();
+  }
+}, false);

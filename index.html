@@ -6,8 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
-    <script src="js/pesquisas.js"></script>
+    
   </head>
   <body>
     <div id="topo">
@@ -42,7 +41,9 @@
               <div id="search-icon">
                 <svg style="fill: #b3b7bc;" id="lupa" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
               </div>
-            <input  type="search" id="input-search">
+
+            <input autofocus type="search" id="input-search">
+            
             <div id="keyboard-area" >
               <a href="http://"><span id="keyboard-icon"><img  src="http://www.gstatic.com/inputtools/images/tia.png" title="Ferramentas de Inserção de Texto"></span></a>         
             </div>
@@ -56,7 +57,9 @@
         </div>
         <br>
         <div id="center">
-          <input id="search-button" type="submit" value="Pesquisa Google" onclick="pesquisar()" >
+
+          <button id="search-button"  onclick="pesquisar()" >Pesquisa Google</button>
+          
           <a href="https://www.google.com/doodles"><input id="lucky-button" type="submit" value="Estou com Sorte" ></div></a>
         </div>
     </div>
@@ -101,9 +104,8 @@
         <span id="t8">Configurações</span></a>
   </div>
   </div>
- </div>
-
-  
-        
+ </div>  
+ <script src="js/pesquisas.js"></script> 
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   </body>
 </html>
